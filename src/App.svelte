@@ -1,10 +1,16 @@
 <script>
 	export let name;
+	let person_name = "Hashim";
+	function handleClick()
+	{
+		person_name = "Abdullah";
+	}
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
-	<p>Assalamualykum Bros!</p>
+	<p>Assalamualykum {person_name}!</p>
+	<button on:click={handleClick}>Enter your age</button>
 </main>
 
 <style>
