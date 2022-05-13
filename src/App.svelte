@@ -8,9 +8,10 @@
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<h1>Assalamualykum {name}!</h1>
 	<p>Assalamualykum {person_name}!</p>
-	<button on:click={handleClick}>Enter your age</button>
+	<button on:click={handleClick}>Another Name</button>
+	<p class="bg-slate-800">This is a great way to start with.</p>
 </main>
 
 <style>
